@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Invoice Creator</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Invoice Creator</h1>
+            <p>Thanks for choosing GoodCorp, LLC!</p>
+        </header>
+
+        <main>
+            <div class="services">
+                <button class="btn-mow-lawn">Mow Lawn: $20</button>
+                <button class="btn-wash-car">Wash Car: $10</button>
+                <button class="btn-pull-weeds">Pull Weeds: $30</button>
+            </div>
+            <div class="headers-tasks">
+                <p>TASK</p>
+                <p>TOTAL</p>
+            </div>
+            <div class="section-tasks">
+                <!-- <div class="task">
+                    <h2>Wash Car</h2><span class="remove-span">Remove</span>
+                    <p>$<span>10</span></p>
+                </div>
+                <div class="task">
+                    <h2>Mow Lawn</h2><span class="remove-span">Remove</span>
+                    <p>$<span>20</span></p>
+                </div>
+                <div class="task">
+                    <h2>Pull Weeds</h2><span class="remove-span">Remove</span>
+                    <p>$<span>30</span></p>
+                </div> -->
+            </div>
+            <hr>
+            <div class="headers-tasks">
+                <p>NOTES</p>
+                <p>TOTAL AMOUNT</p>
+            </div>
+            <div class="total-amount">
+                <p>We accept cash, credit card, or PayPal</p>
+                <h2 class="total-amount-display">$0</h2>
+            </div>
+            <button class="btn-invoice"><img src="./mail_icon.png" alt="mail icon">Send Invoice</button>
+        </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
